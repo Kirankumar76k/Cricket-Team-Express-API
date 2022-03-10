@@ -6,25 +6,26 @@ POST http://localhost:3000/players/
 Content-Type: application/json
 
 {
-  "player_name": "Vishal",
-  "jersey_number": 17,
-  "role": "Bowler"
+  "playerName": "Maneesh hsdf",
+  "jerseyNumber": 543,
+  "role": "All-rounder"
 }
 
 ###
 
-GET http://localhost:3000/players/21/
+GET http://localhost:3000/players/26/
 
 ###
 
 PUT http://localhost:3000/players/26/
 Content-Type: application/json
-
 {
-  "player_name": "kiran",
-  "jersey_number": 57,
-  "role": "Bowler"
+  "playerName": "Maneesh",
+  "jerseyNumber": 54,
+  "role": "All-rounder"
 }
 
 ###
-DELETE http://localhost:3000/players/21/
+DELETE http://localhost:3000/players/28/
+
+###
